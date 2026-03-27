@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Garante que imagens nunca fiquem maiores que a tela do celular */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #1a1a1a; /* Um fundo escuro combina com Ben 10 */
+    color: white;
+    padding: 20px;
+}
+
+.search input{
+    color: white;
+    outline: none;
+    width: 80%;
+    background-color: #000;    
+    border: 2px solid #32CD32; 
+    border-radius: 15px;       /* Cantos arredondados */
+    padding: 15px;             /* Espaço interno */
+}
+
+.app{
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:40%
+}
+
+.card {
+    background-color: #000;    /* Fundo preto para o card */
+    border: 2px solid #32CD32; /* Borda verde neon */
+    border-radius: 15px;       /* Cantos arredondados */
+    padding: 15px;             /* Espaço interno */
+    margin: 20px auto;         /* Centraliza o card e separa um do outro */
+    max-width: 90%;            /* Largura ideal para mobile */
+    overflow: hidden;          /* Garante que a imagem não saia da borda */
+}
