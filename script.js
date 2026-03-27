@@ -1,6 +1,6 @@
 async function carregarAliens() {
     try {
-        const url = 'https://ben10api.vercel.app/api/aliens'; // URL da Vercel
+        const url = 'https://ben10-api.herokuapp.com/random'; // URL da Vercel
         const resposta = await fetch(url);
         
         if (!resposta.ok) throw new Error("Erro ao carregar a API");
